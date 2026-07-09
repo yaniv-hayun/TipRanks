@@ -3,7 +3,7 @@ import {
   normalizeTicker,
   cleanTicker,
   extractTickerSuffix,
-} from '../src/search/normalizer.util';
+} from '../normalizer.util';
 
 describe('normalizeText', () => {
   it('should lowercase text', () => {

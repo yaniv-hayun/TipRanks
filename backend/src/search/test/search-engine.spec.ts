@@ -1,11 +1,11 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { SearchEngineService } from '../src/search/search-engine.service';
-import { DataLoaderService } from '../src/data/data-loader.service';
+import { SearchEngineService } from '../search-engine.service';
+import { DataLoaderService } from '../../data/data-loader.service';
 import {
   SearchableStock,
   SearchableExpert,
   MatchTier,
-} from '../src/search/interfaces/searchable.interface';
+} from '../interfaces/searchable.interface';
 
 /**
  * Mock DataLoaderService with controlled test data to isolate
