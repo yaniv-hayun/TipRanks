@@ -13,18 +13,20 @@
  * Strips diacritics, replaces & with "and", removes punctuation, collapses whitespace.
  */
 export function normalizeText(input: string): string {
-  return input
-    .toLowerCase()
-    // Strip diacritics: é → e, ü → u, etc.
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    // Replace & with "and" (handles both literal & and unicode \u0026)
-    .replace(/&/g, ' and ')
-    // Remove all punctuation except spaces and alphanumerics
-    .replace(/[^a-z0-9\s]/g, '')
-    // Collapse multiple spaces into one
-    .replace(/\s+/g, ' ')
-    .trim();
+  return (
+    input
+      .toLowerCase()
+      // Strip diacritics: é → e, ü → u, etc.
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      // Replace & with "and" (handles both literal & and unicode \u0026)
+      .replace(/&/g, ' and ')
+      // Remove all punctuation except spaces and alphanumerics
+      .replace(/[^a-z0-9\s]/g, '')
+      // Collapse multiple spaces into one
+      .replace(/\s+/g, ' ')
+      .trim()
+  );
 }
 
 /**
@@ -53,5 +55,10 @@ export function cleanTicker(ticker: string): string {
 export function extractTickerSuffix(ticker: string): string | null {
   const colonIndex = ticker.indexOf(':');
   if (colonIndex === -1) return null;
-  return ticker.substring(colonIndex + 1).toLowerCase().trim() || null;
+  return (
+    ticker
+      .substring(colonIndex + 1)
+      .toLowerCase()
+      .trim() || null
+  );
 }

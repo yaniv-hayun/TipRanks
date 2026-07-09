@@ -46,7 +46,7 @@ export class DataLoaderService implements OnModuleInit {
 
   private loadStocks(): void {
     const filePath = path.resolve(__dirname, '..', 'db', 'stocks.json');
-    const raw: RawStock[] = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    const raw = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as RawStock[];
 
     this.stocks = raw.map((stock) => ({
       // Original fields (for API response)
@@ -64,7 +64,7 @@ export class DataLoaderService implements OnModuleInit {
 
   private loadExperts(): void {
     const filePath = path.resolve(__dirname, '..', 'db', 'experts.json');
-    const raw: RawExpert[] = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    const raw = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as RawExpert[];
 
     this.experts = raw.map((expert) => ({
       // Original fields (for API response)

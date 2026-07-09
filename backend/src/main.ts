@@ -28,4 +28,7 @@ async function bootstrap() {
   await app.listen(port, '0.0.0.0');
   console.log(`Autocomplete API running on port ${port}`);
 }
-bootstrap();
+bootstrap().catch((err) => {
+  console.error('Error starting server', err);
+  process.exit(1);
+});
