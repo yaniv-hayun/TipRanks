@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom mark styling for highlighted text */
+mark {
+  background-color: rgba(108, 99, 255, 0.25);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 2px;
+}

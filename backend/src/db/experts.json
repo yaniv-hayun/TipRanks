@@ -1,0 +1,152 @@
+[
+  { "name": "Fadi Chamoun", "firm": "BMO", "type": "Analyst" },
+  { "name": "David Haughton", "firm": "CIBC World Markets", "type": "Analyst" },
+  { "name": "Joel Jackson", "firm": "BMO", "type": "Analyst" },
+  { "name": "Andrew Kaip", "firm": "BMO", "type": "Analyst" },
+  { "name": "Tom Mackinnon", "firm": "BMO", "type": "Analyst" },
+  { "name": "Stephen Macleod", "firm": "BMO", "type": "Analyst" },
+  { "name": "Peter Sklar", "firm": "BMO", "type": "Analyst" },
+  { "name": "Scott Chan CFA", "firm": "Canaccord Genuity", "type": "Analyst" },
+  { "name": "Eyal Ofir", "firm": "Dundee", "type": "Analyst" },
+  { "name": "John Quealy", "firm": "Canaccord Genuity", "type": "Analyst" },
+  { "name": "Perry Caicco", "firm": "CIBC World Markets", "type": "Analyst" },
+  { "name": "Jeremy Kaliel", "firm": "CIBC World Markets", "type": "Analyst" },
+  { "name": "Paul Lechem", "firm": "CIBC World Markets", "type": "Analyst" },
+  { "name": "Ian Parkinson", "firm": "Stifel Nicolaus", "type": "Analyst" },
+  { "name": "Mark Petrie", "firm": "CIBC World Markets", "type": "Analyst" },
+  { "name": "Robert Sedran", "firm": "CIBC World Markets", "type": "Analyst" },
+  { "name": "Ross Seymore", "firm": "Deutsche Bank", "type": "Analyst" },
+  { "name": "Mark Wilde", "firm": "BMO", "type": "Analyst" },
+  { "name": "Grant Daunheimer", "firm": "Stifel Nicolaus", "type": "Analyst" },
+  { "name": "Brian Uhlmer", "firm": "Stifel Nicolaus", "type": "Analyst" },
+  { "name": "George Albino", "firm": "Stifel Nicolaus", "type": "Analyst" },
+  { "name": "Stacey Mcdonald", "firm": "Stifel Nicolaus", "type": "Analyst" },
+  { "name": "Geordie Mark", "firm": "Haywood Securities", "type": "Analyst" },
+  { "name": "Bill Cabel", "firm": "Desjardins", "type": "Analyst" },
+  { "name": "Joel Jeffrey", "firm": "Keefe", "type": "Analyst" },
+  { "name": "Brian Klock", "firm": "Keefe", "type": "Analyst" },
+  { "name": "Ron Shuttleworth", "firm": "M Partners", "type": "Analyst" },
+  { "name": "Sumit Malhotra", "firm": "Scotia Bank", "type": "Analyst" },
+  { "name": "Ehud Gelblum", "firm": "Citi", "type": "Analyst" },
+  { "name": "Ryan Meliker", "firm": "Canaccord Genuity", "type": "Analyst" },
+  { "name": "Leon Aghazarian", "firm": "National Bank", "type": "Analyst" },
+  { "name": "Heather Kirk", "firm": "BMO", "type": "Analyst" },
+  { "name": "David Davidson", "firm": "Paradigm Capital", "type": "Analyst" },
+  { "name": "Alan Ridgeway", "firm": "Scotia Bank", "type": "Analyst" },
+  { "name": "Steve Hansen", "firm": "Raymond James", "type": "Analyst" },
+  { "name": "Steven Li", "firm": "Raymond James", "type": "Analyst" },
+  { "name": "Kristopher Zack", "firm": "Desjardins", "type": "Analyst" },
+  { "name": "Michael Harvey", "firm": "RBC", "type": "Analyst" },
+  { "name": "Dan Macdonald", "firm": "RBC", "type": "Analyst" },
+  { "name": "Douglas Miehm", "firm": "RBC", "type": "Analyst" },
+
+  { "name": "James Harding", "firm": "Harding James A.", "type": "Insider" },
+  { "name": "Sumit Sadana", "firm": "Sadana Sumit", "type": "Insider" },
+  {
+    "name": "James Breslawski",
+    "firm": "Breslawski James P.",
+    "type": "Insider"
+  },
+  { "name": "Catherine Lego", "firm": "Lego Catherine P.", "type": "Insider" },
+  { "name": "Yehoshua Nir", "firm": "Nir Yehoshua", "type": "Insider" },
+  { "name": "Judy Bruner", "firm": "Bruner Judy", "type": "Insider" },
+  {
+    "name": "Gerald Benjamin",
+    "firm": "Benjamin Gerald A.",
+    "type": "Insider"
+  },
+  { "name": "Sanjay Mehrotra", "firm": "Mehrotra Sanjay", "type": "Insider" },
+  { "name": "Irwin Federman", "firm": "Federman Irwin", "type": "Insider" },
+  { "name": "Jeffrey John Yin", "firm": "Yin Jeffrey John", "type": "Insider" },
+  {
+    "name": "Stanley Bergman",
+    "firm": "Bergman Stanley M.",
+    "type": "Insider"
+  },
+  { "name": "Barry Alperin", "firm": "Alperin Barry J.", "type": "Insider" },
+  {
+    "name": "Donald Robertson",
+    "firm": "Robertson Donald F Jr",
+    "type": "Insider"
+  },
+  {
+    "name": "Bradley Sheares",
+    "firm": "Sheares Bradley T.",
+    "type": "Insider"
+  },
+  { "name": "Andrew Murstein", "firm": "Murstein Andrew", "type": "Insider" },
+  { "name": "Marie Russo", "firm": "Russo Marie", "type": "Insider" },
+  { "name": "Larry Hall", "firm": "Hall Larry D.", "type": "Insider" },
+  { "name": "Leonard David", "firm": "David Leonard A.", "type": "Insider" },
+  { "name": "Steven Gomo", "firm": "Gomo Steven J.", "type": "Insider" },
+  { "name": "David Mckinley", "firm": "McKinley David", "type": "Insider" },
+  { "name": "Paul Brons", "firm": "Brons Paul", "type": "Insider" },
+  { "name": "Michael E. Marks", "firm": "Marks Michael E.", "type": "Insider" },
+  { "name": "Donald Kabat", "firm": "Kabat Donald J.", "type": "Insider" },
+  { "name": "Steven Paladino", "firm": "Paladino Steven", "type": "Insider" },
+  { "name": "Robert Minowitz", "firm": "Minowitz Robert", "type": "Insider" },
+  { "name": "Paul Rose", "firm": "Rose Paul", "type": "Insider" },
+  { "name": "Stanley Komaroff", "firm": "Komaroff Stanley", "type": "Insider" },
+  {
+    "name": "Norman Matthews",
+    "firm": "Matthews Norman S.",
+    "type": "Insider"
+  },
+  { "name": "Lonnie Shoff", "firm": "Shoff Lonnie", "type": "Insider" },
+  {
+    "name": "Michael Ettinger",
+    "firm": "Ettinger Michael S.",
+    "type": "Insider"
+  },
+
+  {
+    "name": "Dr. Paul Nunzio De Santis",
+    "firm": "Alpha BioPharma",
+    "type": "Blogger"
+  },
+  {
+    "name": "Virendra Singh Chauhan",
+    "firm": "Amigo Bulls",
+    "type": "Blogger"
+  },
+  { "name": "Kumar Abhishek", "firm": "Amigo Bulls", "type": "Blogger" },
+  { "name": "Abdul Jawula", "firm": "Amigo Bulls", "type": "Blogger" },
+  { "name": "Neha Gupta", "firm": "Amigo Bulls", "type": "Blogger" },
+  { "name": "Chhavi Sharma", "firm": "Amigo Bulls", "type": "Blogger" },
+  { "name": "Gregg Killpack", "firm": "Amigo Bulls", "type": "Blogger" },
+  { "name": "Elizabeth Smith", "firm": "Amigo Bulls", "type": "Blogger" },
+  { "name": "John Summers", "firm": "Amigo Bulls", "type": "Blogger" },
+  { "name": "MacDonald Chris", "firm": "Amigo Bulls", "type": "Blogger" },
+  { "name": "Andrew Bary", "firm": "Barrons Bloggers", "type": "Blogger" },
+  { "name": "Jack Hough", "firm": "Barrons Bloggers", "type": "Blogger" },
+  { "name": "Leslie Norton", "firm": "Barrons Bloggers", "type": "Blogger" },
+  { "name": "Vito Racanelli", "firm": "Barrons Bloggers", "type": "Blogger" },
+  { "name": "David Englander", "firm": "Barrons Bloggers", "type": "Blogger" },
+  { "name": "Johanna Bennett", "firm": "Barrons Bloggers", "type": "Blogger" },
+  { "name": "Teresa Rivas", "firm": "Barrons Bloggers", "type": "Blogger" },
+  { "name": "Bill Alpert", "firm": "Barrons Bloggers", "type": "Blogger" },
+  { "name": "Jack Willoughby", "firm": "Barrons Bloggers", "type": "Blogger" },
+  { "name": "Richard Rescigno", "firm": "Barrons Bloggers", "type": "Blogger" },
+  { "name": "Avi Salzman", "firm": "Barrons Bloggers", "type": "Blogger" },
+  { "name": "Reshma Kapadia", "firm": "Barrons Bloggers", "type": "Blogger" },
+  {
+    "name": "Robin Goldwyn Blumenthal",
+    "firm": "Barrons Bloggers",
+    "type": "Blogger"
+  },
+  {
+    "name": "Citron Research",
+    "firm": "Citronresearch.com",
+    "type": "Blogger"
+  },
+  { "name": "Brad Thomas", "firm": "Forbes Bloggers", "type": "Blogger" },
+  { "name": "Quint Tatro", "firm": "Forbes Bloggers", "type": "Blogger" },
+  { "name": "Charles Rotblut", "firm": "Forbes Bloggers", "type": "Blogger" },
+  {
+    "name": "Richard Henry Suttmeier",
+    "firm": "Forbes Bloggers",
+    "type": "Blogger"
+  },
+  { "name": "Peter Andersen", "firm": "Forbes Bloggers", "type": "Blogger" },
+  { "name": "John Maloney", "firm": "Forbes Bloggers", "type": "Blogger" }
+]

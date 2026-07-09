@@ -1,0 +1,402 @@
+[
+  {
+    "ticker": "NVDA",
+    "name": "Nvidia Corporation",
+    "marketCap": 4526117866516
+  },
+  { "ticker": "AAPL", "name": "Apple Inc", "marketCap": 3900351316097 },
+  { "ticker": "MSFT", "name": "Microsoft", "marketCap": 3892038785858 },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc. Class A",
+    "marketCap": 3146676322510
+  },
+  {
+    "ticker": "GOOG",
+    "name": "Alphabet Inc. Class C",
+    "marketCap": 3146676322510
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon.Com, Inc.",
+    "marketCap": 2391180015646
+  },
+  {
+    "ticker": "META",
+    "name": "Meta Platforms, Inc.",
+    "marketCap": 1854732522598
+  },
+  {
+    "ticker": "AVGO",
+    "name": "Broadcom Inc.",
+    "marketCap": 1672331223508
+  },
+  {
+    "ticker": "TSLA",
+    "name": "Tesla, Inc.",
+    "marketCap": 1442474366443
+  },
+  {
+    "ticker": "TSM",
+    "name": "Taiwan Semiconductor Manufacturing Company Limited",
+    "marketCap": 1228241268823
+  },
+  {
+    "ticker": "BRK.A",
+    "name": "Berkshire Hathaway A",
+    "marketCap": 1061814716499
+  },
+  {
+    "ticker": "BRK.B",
+    "name": "Berkshire Hathaway B",
+    "marketCap": 1061814716499
+  },
+  { "ticker": "WMT", "name": "Walmart Inc.", "marketCap": 846477583951 },
+  {
+    "ticker": "JPM",
+    "name": "JPMorgan Chase & Co.",
+    "marketCap": 826135996957
+  },
+  {
+    "ticker": "ORCL",
+    "name": "Oracle Corporation",
+    "marketCap": 807714995212
+  },
+  {
+    "ticker": "LLY",
+    "name": "Eli Lilly And Company",
+    "marketCap": 781252716091
+  },
+  {
+    "ticker": "TCEHY",
+    "name": "Tencent Hldgs",
+    "marketCap": 744473096744
+  },
+  {
+    "ticker": "TCTZF",
+    "name": "Tencent Holdings",
+    "marketCap": 744473096744
+  },
+  { "ticker": "V", "name": "Visa Inc.", "marketCap": 669262617552 },
+  {
+    "ticker": "JP:3350",
+    "name": "Metaplanet KK",
+    "marketCap": 535714620239
+  },
+  {
+    "ticker": "MA",
+    "name": "Mastercard Inc",
+    "marketCap": 518604453890
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil Corp.",
+    "marketCap": 491936076841
+  },
+  { "ticker": "NFLX", "name": "Netflix", "marketCap": 463855519852 },
+  {
+    "ticker": "JNJ",
+    "name": "Johnson & Johnson",
+    "marketCap": 458729738420
+  },
+  {
+    "ticker": "SSNLF",
+    "name": "Samsung Electronics Co. Ltd.",
+    "marketCap": 447341906295
+  },
+  {
+    "ticker": "PLTR",
+    "name": "Palantir Technologies Inc.",
+    "marketCap": 438005971931
+  },
+  {
+    "ticker": "BABA",
+    "name": "Alibaba Group",
+    "marketCap": 413587860462
+  },
+  {
+    "ticker": "COST",
+    "name": "Costco Wholesale Corp.",
+    "marketCap": 413105065252
+  },
+  {
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices, Inc.",
+    "marketCap": 410449638278
+  },
+  { "ticker": "ABBV", "name": "Abbvie", "marketCap": 402757620001 },
+  {
+    "ticker": "ASML",
+    "name": "Asml Holding N.V.",
+    "marketCap": 398348013440
+  },
+  {
+    "ticker": "BAC",
+    "name": "Bank of America",
+    "marketCap": 389383215493
+  },
+  { "ticker": "HD", "name": "Home Depot", "marketCap": 384896081914 },
+  {
+    "ticker": "ACGBF",
+    "name": "Agricultural Bank of China  Class H",
+    "marketCap": 382052431333
+  },
+  {
+    "ticker": "IDCBF",
+    "name": "Industrial and Commercial Bank of China  Class H",
+    "marketCap": 364649768119
+  },
+  {
+    "ticker": "IDCBY",
+    "name": "Industrial And Commercial Bank Of China",
+    "marketCap": 364649768119
+  },
+  {
+    "ticker": "PG",
+    "name": "Procter & Gamble Company",
+    "marketCap": 356900624116
+  },
+  {
+    "ticker": "LVMUY",
+    "name": "LVMH Moet Hennessy Louis Vuitton SE",
+    "marketCap": 356750868524
+  },
+  {
+    "ticker": "UNH",
+    "name": "Unitedhealth Group Inc.",
+    "marketCap": 328306696320
+  },
+  { "ticker": "GE", "name": "Ge Aerospace", "marketCap": 320526277253 },
+  { "ticker": "CVX", "name": "Chevron", "marketCap": 318492593336 },
+  { "ticker": "SAP", "name": "SAP SE (US)", "marketCap": 317546394902 },
+  {
+    "ticker": "KO",
+    "name": "Coca-cola Company",
+    "marketCap": 299865151555
+  },
+  {
+    "ticker": "IBM",
+    "name": "International Business Machines Corporation",
+    "marketCap": 287393666907
+  },
+  { "ticker": "GB:0GWL", "name": "Saab AB", "marketCap": 279289531240 },
+  { "ticker": "CSCO", "name": "Cisco", "marketCap": 279214294770 },
+  {
+    "ticker": "WFC",
+    "name": "Wells Fargo & Company",
+    "marketCap": 276809362549
+  },
+  {
+    "ticker": "RHHBY",
+    "name": "Roche Holding AG",
+    "marketCap": 273796796531
+  },
+  {
+    "ticker": "RHHVF",
+    "name": "Roche Holding",
+    "marketCap": 273796796531
+  },
+  {
+    "ticker": "CICHF",
+    "name": "China Construction Bank Corporation Class H",
+    "marketCap": 272050316684
+  },
+  {
+    "ticker": "HESAY",
+    "name": "Hermes International SCA Unsponsored ADR",
+    "marketCap": 267691280107
+  },
+  {
+    "ticker": "HESAF",
+    "name": "Hermes International SCA",
+    "marketCap": 267691280107
+  },
+  {
+    "ticker": "TM",
+    "name": "Toyota Motor Corp Ltd Ord",
+    "marketCap": 267477772135
+  },
+  {
+    "ticker": "MS",
+    "name": "Morgan Stanley",
+    "marketCap": 261575567688
+  },
+  { "ticker": "AZN", "name": "AstraZeneca", "marketCap": 259499980347 },
+  {
+    "ticker": "NSRGY",
+    "name": "Nestle SA Reg Shs.",
+    "marketCap": 255050588390
+  },
+  { "ticker": "NSRGF", "name": "Nestlé", "marketCap": 255050588390 },
+  { "ticker": "NVS", "name": "Novartis AG", "marketCap": 249531722608 },
+  {
+    "ticker": "AXP",
+    "name": "American Express Company",
+    "marketCap": 246305784829
+  },
+  {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "marketCap": 245842495496
+  },
+  {
+    "ticker": "PM",
+    "name": "Philip Morris International",
+    "marketCap": 245349606608
+  },
+  { "ticker": "CAT", "name": "Caterpillar", "marketCap": 244887988657 },
+  { "ticker": "TMUS", "name": "T Mobile US", "marketCap": 243577185274 },
+  {
+    "ticker": "CRM",
+    "name": "Salesforce.com",
+    "marketCap": 242598161743
+  },
+  {
+    "ticker": "RTX",
+    "name": "Rtx Corporation",
+    "marketCap": 239528904732
+  },
+  {
+    "ticker": "GS",
+    "name": "Goldman Sachs Group",
+    "marketCap": 237297017231
+  },
+  { "ticker": "NVO", "name": "Novo Nordisk", "marketCap": 237076991688 },
+  { "ticker": "LRLCY", "name": "L'Oreal SA", "marketCap": 232596516999 },
+  {
+    "ticker": "HSBC",
+    "name": "HSBC Holdings plc",
+    "marketCap": 230687714675
+  },
+  {
+    "ticker": "SFTBF",
+    "name": "SoftBank Group Corp",
+    "marketCap": 229237578397
+  },
+  {
+    "ticker": "SFTBY",
+    "name": "Softbank Corp.",
+    "marketCap": 229237578397
+  },
+  {
+    "ticker": "PCCYF",
+    "name": "PetroChina Company  Class H",
+    "marketCap": 227735217136
+  },
+  {
+    "ticker": "SHOP",
+    "name": "Shopify Inc.",
+    "marketCap": 224964215284
+  },
+  { "ticker": "SIEGY", "name": "Siemens AG", "marketCap": 222448580527 },
+  {
+    "ticker": "ABT",
+    "name": "Abbott Laboratories",
+    "marketCap": 220777219512
+  },
+  { "ticker": "SHEL", "name": "Shell Plc", "marketCap": 219373474433 },
+  {
+    "ticker": "MRK",
+    "name": "Merck & Company",
+    "marketCap": 218531047106
+  },
+  {
+    "ticker": "MCD",
+    "name": "McDonald's Corporation",
+    "marketCap": 218213105100
+  },
+  {
+    "ticker": "TMO",
+    "name": "Thermo Fisher Scientific",
+    "marketCap": 216182939606
+  },
+  {
+    "ticker": "BACHY",
+    "name": "Bank of China",
+    "marketCap": 210915463472
+  },
+  {
+    "ticker": "BACHF",
+    "name": "Bank of China  Class H",
+    "marketCap": 210915463472
+  },
+  {
+    "ticker": "APP",
+    "name": "AppLovin Corp. Class A",
+    "marketCap": 209714952915
+  },
+  { "ticker": "LIN", "name": "Linde Plc", "marketCap": 209133657471 },
+  {
+    "ticker": "RY",
+    "name": "Royal Bank Of Canada",
+    "marketCap": 207799595721
+  },
+  { "ticker": "PEP", "name": "Pepsico", "marketCap": 207220394493 },
+  {
+    "ticker": "DIS",
+    "name": "Walt Disney Company",
+    "marketCap": 200793251564
+  },
+  {
+    "ticker": "UBER",
+    "name": "Uber Technologies",
+    "marketCap": 196175336583
+  },
+  {
+    "ticker": "GB:AZN",
+    "name": "AstraZeneca plc",
+    "marketCap": 194278538057
+  },
+  {
+    "ticker": "ISRG",
+    "name": "Intuitive Surgical",
+    "marketCap": 193735646979
+  },
+  {
+    "ticker": "NOW",
+    "name": "ServiceNow Inc",
+    "marketCap": 193475356445
+  },
+  {
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "marketCap": 193331038334
+  },
+  {
+    "ticker": "EADSY",
+    "name": "Airbus Se (OTC)",
+    "marketCap": 192370787048
+  },
+  {
+    "ticker": "EADSF",
+    "name": "Airbus Group",
+    "marketCap": 192370787048
+  },
+  {
+    "ticker": "LRCX",
+    "name": "Lam Research Corp",
+    "marketCap": 191273358889
+  },
+  { "ticker": "INTU", "name": "Intuit Inc.", "marketCap": 190448909934 },
+  {
+    "ticker": "BX",
+    "name": "Blackstone Group L.P.",
+    "marketCap": 188374395401
+  },
+  {
+    "ticker": "CMWAY",
+    "name": "Commonwealth Bank of Australia",
+    "marketCap": 186874521785
+  },
+  {
+    "ticker": "PDD",
+    "name": "Pdd Holdings Inc.",
+    "marketCap": 186039720909
+  },
+  {
+    "ticker": "BLK",
+    "name": "BlackRock Inc.",
+    "marketCap": 185481905951
+  },
+  { "ticker": "QCOM", "name": "Qualcomm", "marketCap": 182286262634 }
+]
