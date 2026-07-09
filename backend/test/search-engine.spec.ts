@@ -98,7 +98,11 @@ const mockStocks: SearchableStock[] = [
 const mockExperts: SearchableExpert[] = [
   { name: 'Andrew Bary', expertType: 'blogger', normalizedName: 'andrew bary' },
   { name: 'Andrew Kaip', expertType: 'analyst', normalizedName: 'andrew kaip' },
-  { name: 'Fadi Chamoun', expertType: 'analyst', normalizedName: 'fadi chamoun' },
+  {
+    name: 'Fadi Chamoun',
+    expertType: 'analyst',
+    normalizedName: 'fadi chamoun',
+  },
   {
     name: 'Dr. Paul Nunzio De Santis',
     expertType: 'blogger',
@@ -210,7 +214,9 @@ describe('SearchEngineService', () => {
     it('should return prefix matches', () => {
       const results = service.searchExperts('and');
       expect(results.length).toBeGreaterThan(0);
-      expect(results.every((r) => r.item.name.toLowerCase().startsWith('and'))).toBe(true);
+      expect(
+        results.every((r) => r.item.name.toLowerCase().startsWith('and')),
+      ).toBe(true);
     });
 
     it('should sort alphabetically within same tier', () => {
@@ -221,7 +227,9 @@ describe('SearchEngineService', () => {
 
     it('should match through title prefix (dr paul)', () => {
       const results = service.searchExperts('dr paul');
-      expect(results.some((r) => r.item.name === 'Dr. Paul Nunzio De Santis')).toBe(true);
+      expect(
+        results.some((r) => r.item.name === 'Dr. Paul Nunzio De Santis'),
+      ).toBe(true);
     });
 
     it('should match through CFA suffix (scott chan)', () => {

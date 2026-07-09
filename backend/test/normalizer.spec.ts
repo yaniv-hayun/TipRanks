@@ -27,7 +27,7 @@ describe('normalizeText', () => {
     expect(normalizeText('Amazon.Com, Inc.')).toBe('amazoncom inc');
     expect(normalizeText("L'Oreal SA")).toBe('loreal sa');
     expect(normalizeText('Dr. Paul')).toBe('dr paul');
-    expect(normalizeText('McDonald\'s Corporation')).toBe(
+    expect(normalizeText("McDonald's Corporation")).toBe(
       'mcdonalds corporation',
     );
   });

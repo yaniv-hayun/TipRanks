@@ -31,10 +31,10 @@ export interface SearchableStock {
   marketCap: number;
 
   // Pre-computed normalized fields (used for search matching)
-  normalizedTicker: string;       // "brk.a"
-  normalizedTickerClean: string;  // "brka" (dots/colons stripped)
-  tickerSuffix: string | null;    // "3350" for "JP:3350", null otherwise
-  normalizedName: string;         // "berkshire hathaway a"
+  normalizedTicker: string; // "brk.a"
+  normalizedTickerClean: string; // "brka" (dots/colons stripped)
+  tickerSuffix: string | null; // "3350" for "JP:3350", null otherwise
+  normalizedName: string; // "berkshire hathaway a"
 }
 
 /**

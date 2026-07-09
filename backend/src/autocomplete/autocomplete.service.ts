@@ -5,7 +5,10 @@ import {
   StockResult,
   ExpertResult,
 } from './dto/autocomplete-result.dto';
-import { SearchableStock, SearchableExpert } from '../search/interfaces/searchable.interface';
+import {
+  SearchableStock,
+  SearchableExpert,
+} from '../search/interfaces/searchable.interface';
 
 /**
  * Orchestrates the autocomplete search across stocks and experts.
@@ -32,8 +35,14 @@ export class AutocompleteService {
     const expertResults = this.searchEngine.searchExperts(query);
 
     // Apply 5/5 split with fallback
-    let stockSlots = Math.min(stockResults.length, AutocompleteService.MAX_PER_TYPE);
-    let expertSlots = Math.min(expertResults.length, AutocompleteService.MAX_PER_TYPE);
+    let stockSlots = Math.min(
+      stockResults.length,
+      AutocompleteService.MAX_PER_TYPE,
+    );
+    let expertSlots = Math.min(
+      expertResults.length,
+      AutocompleteService.MAX_PER_TYPE,
+    );
 
     // Redistribute unused slots
     const totalSlots = stockSlots + expertSlots;
@@ -43,13 +52,21 @@ export class AutocompleteService {
         stockSlots += Math.min(remaining, stockResults.length - stockSlots);
       }
       if (expertResults.length > expertSlots) {
-        const remainingAfterStocks = AutocompleteService.MAX_RESULTS - stockSlots - expertSlots;
-        expertSlots += Math.min(remainingAfterStocks, expertResults.length - expertSlots);
+        const remainingAfterStocks =
+          AutocompleteService.MAX_RESULTS - stockSlots - expertSlots;
+        expertSlots += Math.min(
+          remainingAfterStocks,
+          expertResults.length - expertSlots,
+        );
       }
     }
 
     // Build combined results with tier info for final sorting
-    const combined: { result: AutocompleteResult; tier: number; typeOrder: number }[] = [];
+    const combined: {
+      result: AutocompleteResult;
+      tier: number;
+      typeOrder: number;
+    }[] = [];
 
     for (let i = 0; i < stockSlots; i++) {
       combined.push({
