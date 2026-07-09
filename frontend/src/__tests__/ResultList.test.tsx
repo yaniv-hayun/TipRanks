@@ -1,9 +1,9 @@
 import { describe, it, expect } from 'vitest';
-import { render, screen, within } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from '../theme';
 import ResultList from '../components/ResultList';
-import { AutocompleteResult } from '../types';
+import type { AutocompleteResult } from '../types';
 
 function renderWithTheme(ui: React.ReactElement) {
   return render(<ThemeProvider theme={theme}>{ui}</ThemeProvider>);
